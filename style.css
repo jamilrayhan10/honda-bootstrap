@@ -1,0 +1,37 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: all 0.5s ease;
+  font-family: "Baloo Da 2", cursive;
+}
+img {
+  width: 100%;
+}
+.header-area {
+  width: 100%;
+  background-color: #264653;
+}
+.fetured-bikes img {
+  width: 70%;
+  filter: grayscale(100%);
+}
+.fetured-bikes:nth-child(2) img {
+  width: 70%;
+  filter: grayscale(0);
+}
+.user img {
+  width: 50%;
+}
+.left-area img {
+  width: 80%;
+  height: 40%;
+}
+
+.accordion-button {
+  font-size: 18px;
+  font-weight: 600;
+}
+.accordion-button span {
+  margin-right: 15px;
+}
